@@ -1,5 +1,4 @@
-import React from 'react';
-import { Home, User, FolderGit2, Briefcase, Mail, Linkedin, Github, FileText } from 'lucide-react';
+import { User, FolderGit2, Briefcase, Mail, Linkedin, Github, FileText } from 'lucide-react';
 
 function Sidebar() {
   return (
