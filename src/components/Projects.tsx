@@ -60,6 +60,7 @@ const projects = [
       'News Genie is an advanced web application designed to serve as a comprehensive article source archive. It allows users to search, find, and retrieve news articles related to specific topics, making it a valuable tool for researchers, journalists, and anyone interested in keeping track of news trends.',
     links: {
       github: 'https://github.com/freddysongg/News-Genie',
+      demo: 'https://www.youtube.com/watch?v=V9jR_agnCzI&ab_channel=FreddySong'
     },
     skills: ['Python', 'Firebase', 'Google Gemini', 'React', 'Render'],
   },
@@ -152,7 +153,7 @@ function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Live Demo <ExternalLink size={16} />
+                  Demo <ExternalLink size={16} />
                 </a>
               )}
             </div>
