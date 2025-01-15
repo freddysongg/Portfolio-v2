@@ -8,6 +8,17 @@
   --accent: #93c5fd;
 }
 
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+  }
+}
+
 body {
   background: linear-gradient(135deg, var(--background), #141620);
   color: var(--text);
@@ -51,15 +62,4 @@ body {
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: var(--accent);
   border-radius: 4px;
-}
-
-@media (max-width: 768px) {
-  .sidebar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: auto;
-    width: 100%;
-  }
 }

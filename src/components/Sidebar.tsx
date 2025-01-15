@@ -34,7 +34,7 @@ function Sidebar() {
         <h2 className="hidden md:block text-xl font-bold mb-4">Find Me</h2>
         <div className="flex gap-6 md:flex-col">
           <a
-            href="#"
+            href="https://www.linkedin.com/in/freddysong/"
             className="text-accent hover:opacity-80 transition-opacity flex items-center gap-2"
             target="_blank"
             rel="noopener noreferrer"
@@ -42,7 +42,7 @@ function Sidebar() {
             <Linkedin size={16} /> <span className="hidden md:inline">LinkedIn</span>
           </a>
           <a
-            href="#"
+            href="https://github.com/freddysongg"
             className="text-accent hover:opacity-80 transition-opacity flex items-center gap-2"
             target="_blank"
             rel="noopener noreferrer"
@@ -50,13 +50,13 @@ function Sidebar() {
             <Github size={16} /> <span className="hidden md:inline">GitHub</span>
           </a>
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:fredsong99@gmail.com"
             className="text-accent hover:opacity-80 transition-opacity flex items-center gap-2"
           >
             <Mail size={16} /> <span className="hidden md:inline">Email</span>
           </a>
           <a
-            href="#"
+            href="https://drive.google.com/file/d/161cy7rTuokT6VPH4pt7p9lHJlQdJEBMc/view?usp=sharing"
             className="text-accent hover:opacity-80 transition-opacity flex items-center gap-2"
             target="_blank"
             rel="noopener noreferrer"
