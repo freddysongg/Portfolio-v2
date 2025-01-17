@@ -3,20 +3,7 @@ const experiences = [
     title: 'Software Engineer, Wahid Studio',
     period: 'April 2024 – Present',
     description: (
-      <ul className="list-disc">
-        <li>
-          Utilized DataGrip and Python scripts to automate refining of over 100k lines of data imported from Shopify’s product taxonomy.
-        </li>
-        <li>
-          Created over 90+ CRUD and RESTful endpoints while implementing schema validation checks in Drizzle ORM, ensuring data security, consistency, and compliance for PostgreSQL interactions in DataGrip.
-        </li>
-        <li>
-          Developed an OOP hierarchy for clothing categories and attributes, using a balanced AVL tree to enforce hierarchical integrity.
-        </li>
-        <li>
-          Led the integration of Stripe, Shopify, and Shippo, adhering to documentation to enable users to seamlessly connect their Shopify stores with up to 10,000 products, supporting high-volume transaction processing and custom shipping workflows.
-        </li>
-      </ul>
+      'Currently building the next and upcoming e-commerce application for clothing designers.'
     ),
     skills: [
       'TypeScript',
@@ -31,32 +18,15 @@ const experiences = [
     title: 'Lead Software Engineer, TablePal (prev. SeekEats)',
     period: 'March 2024 – Present',
     description: (
-      <ul className="list-disc">
-        <li>
-          Researched and implemented user behavior optimization strategies by combining Bayesian optimization and time series transformers to analyze interaction patterns and refine chatbot responses.
-        </li>
-        <li>
-          Improved chatbot accuracy by 50% and reduced response time by 20% through a 5-stage bucket filtering ML pipeline.
-        </li>
-        <li>
-          Spearheaded the deployment of a robust DevOps pipeline through AWS ECS using Docker, enabling a 40% reduction in task completion time and enhancing system scalability.
-        </li>
-      </ul>
+      'Led Backend and Machine Learning Operations.'
     ),
     skills: ['Python', 'MongoDB', 'Next.js', 'AWS ECS', 'Docker'],
   },
   {
-    title: 'Co-Founder, AI@UCR',
+    title: 'Co-Founder, AI @ UCR',
     period: 'October 2023 – Present',
     description: (
-      <ul className="list-disc">
-        <li>
-          Led technical workshops on machine learning and neural networks, engaging over 50 participants.
-        </li>
-        <li>
-          Coordinated with UCR faculty and industry experts to host guest lectures, expanding access to advanced AI insights and career development.
-        </li>
-      </ul>
+      'Lead Project Development and Exploration.'
     ),
     skills: ['Leadership', 'Machine Learning', 'Networking'],
   },
@@ -64,14 +34,7 @@ const experiences = [
     title: 'Software Developer Intern, SeekEats',
     period: 'July 2023 – March 2024',
     description: (
-      <ul className="list-disc">
-        <li>
-          Implemented a secure RBAC system with two-step verification, reducing unauthorized access by 40%.
-        </li>
-        <li>
-          Enhanced user experience through an interactive iOS/Android store-front with over 60+ components.
-        </li>
-      </ul>
+      'Full-Stack Developer for SeekEats mobile application.'
     ),
     skills: ['Node.js', 'React Native', 'MongoDB'],
   },
@@ -79,17 +42,26 @@ const experiences = [
     title: 'Software Engineer Intern, HomesUnlimited',
     period: 'June 2023 – September 2023',
     description: (
-      <ul className="list-disc">
-        <li>
-          Engineered an AI-powered chatbot leveraging GPT-4 API for context-aware data retrieval, boosting user engagement and response relevance.
-        </li>
-        <li>
-          Migrated over 100GB of data to Firebase, optimizing retrieval by 20% and supporting 1 million monthly queries.
-        </li>
-      </ul>
+      'Full-Stack Developer focusing on AI Chatbot creation.'
     ),
     skills: ['Vue.js', 'GPT-4 API', 'Firebase', 'Data Migration'],
-  }
+  },
+  {
+    title: 'Sponsorship Lead, Citrus Hack @ UCR',
+    period: 'July 2023 – June 2024',
+    description: (
+      'Led the Sponsorship Committee.'
+    ),
+    skills: ['Communication', 'Leadership'],
+  },
+  {
+    title: 'Sponsorship Committee, Citrus Hack @ UCR',
+    period: 'September 2022 – July 2023',
+    description: (
+      'Liaison between Citrus Hack and corporate sponsors.'
+    ),
+    skills: ['Communication', 'Networking'],
+  },
 ];
 
 function WorkExperience() {
