@@ -49,11 +49,6 @@ body {
   scrollbar-color: var(--accent) rgba(30, 32, 44, 0.8);
   overflow-y: scroll;
 }
-
-.custom-scrollbar::-webkit-scrollbar {
-  width: 8px;
-}
-
 .custom-scrollbar::-webkit-scrollbar-track {
   background: rgba(30, 32, 44, 0.8);
   border-radius: 4px;

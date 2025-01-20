@@ -1,0 +1,30 @@
+.magnetic {
+  position: relative;
+  display: inline-block;
+  z-index: 1000;
+  
+  &:hover {
+    cursor: none;
+  }
+}
+
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background: #384e67;
+  border-radius: 50%;
+  transform: translate(-25%, -25%);
+  pointer-events: none;
+  z-index: 999;
+  mix-blend-mode: difference;
+  transition: transform 0.1s ease-out, width 0.2s ease-out, height 0.2s ease-out;
+  
+  &.-expand {
+    width: 10px;
+    height: 10px;
+    background: rgba(102, 146, 195, 0.8);
+  }
+}
