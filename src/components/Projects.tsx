@@ -79,6 +79,7 @@ const projects = [
       'Engineered a multi-class CNN using TensorFlow and Keras for classifying image data with high accuracy. Applied data augmentation and model optimization for performance improvement.',
     links: {
       github: 'https://github.com/freddysongg/MafWays',
+      demo: 'https://youtu.be/1EdeTjw41lw'
     },
     skills: [
       'TensorFlow',
@@ -101,6 +102,22 @@ const projects = [
       'SciKit',
       'Data Analysis',
       'Feature Engineering',
+    ],
+  },
+  {
+    title: 'Modded Word Hunt',
+    description:
+      'Enhanced Word Hunt game with customizable grids, power-ups, and advanced scoring mechanics.',
+    links: {
+      github: 'https://github.com/freddysongg/Modded-Word-Hunt',
+      demo: 'https://www.youtube.com/embed/1WyHNnWpu44?vq=hd1080'
+    },
+    skills: [
+      'C++',
+      'CMake',
+      'SFML',
+      'Google Test',
+      'Valgrind',
     ],
   },
   {
