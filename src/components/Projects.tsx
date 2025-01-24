@@ -36,6 +36,21 @@ const projects = [
     ],
   },
   {
+    title: 'Maze of Love - For My Girlfriend',
+    description:
+      'Maze of Love is a fun, interactive Valentine-themed application where users navigate a pixelated maze to reach a heart. Along the way, they answer cute and funny questions designed to create a delightful and chaotic experience. Once the game is completed, a series of explosive celebrations — including confetti and GIFs — take over the screen to express love in the most vibrant way possible.',
+    links: {
+      github: 'https://github.com/freddysongg/Maze-of-Love',
+      demo: 'https://maze-of-love.vercel.app/'
+    },
+    skills: [
+      'Love <3',
+      'Typescript',
+      'State Management',
+      'Event Handling'
+    ],
+  },
+  {
     title: 'LeftRight - Political Trivia Game',
     description:
       'A fun and interactive trivia game that matches your vibes with political sides! Swipe left or right on hilarious, trivial, or downright outrageous questions to discover if you\'re more Democrat or Republican. Minimalist Tinder-style UI, smooth animations, and shareable results make this the perfect game for Gen Z to swipe, laugh, and share!',
