@@ -84,7 +84,7 @@ function Sidebar() {
             <Mail size={16} /> <span className="hidden md:inline">Email</span>
           </a>
           <a
-            href="https://drive.google.com/file/d/161cy7rTuokT6VPH4pt7p9lHJlQdJEBMc/view?usp=sharing"
+            href="https://drive.google.com/file/d/1MUC6A68QdIuqhaZX-dqTof9nzBOaoqb5/view?usp=sharing"
             className="text-accent hover:opacity-80 transition-opacity flex items-center gap-2"
             target="_blank"
             rel="noopener noreferrer"

@@ -46,7 +46,7 @@ function Hero() {
           GitHub <ExternalLink size={16} />
         </a>
         <a
-          href="https://drive.google.com/file/d/161cy7rTuokT6VPH4pt7p9lHJlQdJEBMc/view?usp=sharing"
+          href="https://drive.google.com/file/d/1MUC6A68QdIuqhaZX-dqTof9nzBOaoqb5/view?usp=sharing"
           className="flex items-center gap-2 text-accent hover:opacity-80 transition-opacity"
           target="_blank"
           rel="noopener noreferrer"
